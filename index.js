@@ -25,6 +25,6 @@ var appendKitten = function(name){
 };
 
 var prependKitten = function(name){
-  let newKittens = [];
+  let newKittens = name;
   return newKittens;
 };
