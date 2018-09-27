@@ -16,5 +16,5 @@ var destructivelyRemoveLastKitten = function(){
 };
 
 var destructivelyRemoveFirstKitten = function(){
-  
-}
+  kittens.
+};
