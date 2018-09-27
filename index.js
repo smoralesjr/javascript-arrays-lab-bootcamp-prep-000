@@ -32,5 +32,8 @@ var prependKitten = function(name){
 };
 
 var removeLastKitten = function(){
-  
+  //using the .slice method to copy the array into a new array
+  let newKittens = kittens.slice(0, kittens.length);
+  newKittens.unshift(name);
+  return newKittens;  
 };
