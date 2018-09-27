@@ -20,6 +20,6 @@ var destructivelyRemoveFirstKitten = function(){
 };
 
 var appendKitten = function(name){
-  let newKittens = kittens.splice(kittens.length,0,name);
+  let newKittens = kittens.concat(name);
   return newKittens;
 };
