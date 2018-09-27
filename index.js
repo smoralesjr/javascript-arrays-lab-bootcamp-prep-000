@@ -13,4 +13,4 @@ var destructivelyPrependKitten = function(name){
 
 var destructivelyRemoveLastKitten = function(){
   
-}
+};
