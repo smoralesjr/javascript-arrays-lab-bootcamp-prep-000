@@ -25,6 +25,7 @@ var appendKitten = function(name){
 };
 
 var prependKitten = function(name){
-  let newKittens = name.concat("Broom");
+  let newKittens = kittens.slice(0, kittens.length);
+  newKittens.unshift(name);
   return newKittens;
 };
