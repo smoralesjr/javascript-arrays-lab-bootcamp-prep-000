@@ -20,5 +20,6 @@ var destructivelyRemoveFirstKitten = function(){
 };
 
 var appendKitten = function(name){
+  let newKittens = [];
   
 };
