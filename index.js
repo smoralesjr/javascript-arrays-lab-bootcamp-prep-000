@@ -30,3 +30,7 @@ var prependKitten = function(name){
   newKittens.unshift(name);
   return newKittens;
 };
+
+var removeLastKitten = function(){
+  
+};
