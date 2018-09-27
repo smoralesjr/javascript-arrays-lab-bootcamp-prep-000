@@ -37,3 +37,7 @@ var removeLastKitten = function(){
   newKittens.pop(name);
   return newKittens;  
 };
+
+var removeFirstKitten = function(){
+  
+}
