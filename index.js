@@ -23,3 +23,7 @@ var appendKitten = function(name){
   let newKittens = kittens.concat(name);
   return newKittens;
 };
+
+var prependKitten = function(name){
+  
+};
