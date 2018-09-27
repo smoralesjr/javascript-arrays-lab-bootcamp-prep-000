@@ -26,5 +26,5 @@ var appendKitten = function(name){
 
 var prependKitten = function(name){
   let newKittens = name.concat("Broom");
-//  return newKittens;
+  return newKittens;
 };
